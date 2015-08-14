@@ -168,20 +168,20 @@
 #hometabfeatures #hometab_edit{
 	padding:0; margin:0;
 	/*background: #e9f4f8;*/
-	max-height:575px;
+	/*max-height:575px;*/
 	width:300%;
 	position:relative;
 	left:0;}
 #hometabfeatures .description_bloc{
 	clear:none;
-	max-height:575px;
+	/*max-height:575px;*/
 	float:left;
 	width:33.3333333333333333333333333333%;
 	}
 #hometabfeatures .description_title{
 	text-align:center;
 	padding:40px 150px 10px;
-	height:175px;
+	/*height:175px;*/
 	}
 #hometabfeatures .description_image img{
 	max-width:100%;
