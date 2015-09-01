@@ -1,5 +1,11 @@
 $(document).ready(function() {
 	
+	if($(window).width() > 801)
+	$('#hometabfeatures .description_content, #hometabfeatures .description_content table, #hometabfeatures .description_content_right, #hometabfeatures .description_content_right table').height($('#hometabfeatures .description_image img').height()-30);
+	else
+	$('#hometabfeatures .description_content, #hometabfeatures .description_content table, #hometabfeatures .description_content_right, #hometabfeatures .description_content_right table').css('height', 'auto');
+		
+	});
 	
 	/*var preload = $(".close_arrow");
 	preload.css({ position: "absolute", visibility: "hidden", display: "block" });
